@@ -39,7 +39,8 @@
 
 .main-content {
   position: absolute;
-  top: 380px;
+  /* top: 380px; */
+  top: 55vh;
   z-index: 0;
 }
 
@@ -56,8 +57,8 @@
 
 .main-img  {
   position: absolute;
-  top: 86px;
-  left: 50%;
+  top: 30vh;
+  left: 50vw;
   width: 50vw;
   z-index: 10;
 }
