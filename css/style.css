@@ -1,0 +1,68 @@
+/* 共通 */
+/* .inner {
+  display: flex;
+  justify-content: space-between;
+} */
+
+.txt {
+  color: #00277e;
+  font-weight: bold;
+}
+
+
+/* header */
+.header-contents {
+  margin: 28px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-title {
+  font-size: 24px;
+}
+
+.header-category {
+  display: flex;
+}
+
+.header-category_li {
+  font-size: 16px;
+  list-style: none;
+  margin-left: 20px;
+}
+
+
+/* main */
+.main-contents {
+  position: relative;
+}
+
+.main-content {
+  position: absolute;
+  top: 380px;
+  z-index: 0;
+}
+
+.main-title {
+  font-size: 76px;
+  font-weight: lighter;
+}
+
+.main-box {
+  background-color: #00277e;
+  width: 76vw;
+  height: 220px;
+}
+
+.main-img  {
+  position: absolute;
+  top: 86px;
+  left: 50%;
+  width: 50vw;
+  z-index: 10;
+}
+
+.main-img_img {
+  display: block;
+  width: 100%;
+}
