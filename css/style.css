@@ -1,40 +1,63 @@
-/* 共通 */
-/* .inner {
-  display: flex;
-  justify-content: space-between;
-} */
+/* 共通のスタイル */
+* {
+  border: 1px solid red;
+  box-sizing: border-box; 
+}
 
 .txt {
   color: #00277e;
   font-weight: bold;
+  /* border: 1px solid red;
+  box-sizing: border-box;  */
 }
 
 
 /* header */
+.header {
+  width: 1500px;
+  height: 200px;
+}
+
 .header-contents {
   margin: 28px;
   display: flex;
   justify-content: space-between;
+  /* border: 1px solid red;
+  box-sizing: border-box;  */
 }
 
 .header-title {
   font-size: 24px;
+  /* border: 1px solid red;
+  box-sizing: border-box;  */
 }
 
 .header-category {
   display: flex;
+  /* border: 1px solid red;
+  box-sizing: border-box;  */
 }
 
 .header-category_li {
   font-size: 16px;
   list-style: none;
   margin-left: 20px;
+  /* border: 1px solid red;
+  box-sizing: border-box;  */
 }
 
 
 /* main */
+main {
+  width: 1500px;
+  height: 800px;
+  
+}
+
 .main-contents {
   position: relative;
+  /* border: 1px solid red;
+  box-sizing: border-box;  */
 }
 
 .main-content {
@@ -42,17 +65,23 @@
   /* top: 380px; */
   top: 55vh;
   z-index: 0;
+  /* border: 1px solid red;
+  box-sizing: border-box;  */
 }
 
 .main-title {
   font-size: 76px;
   font-weight: lighter;
+  /* border: 1px solid red;
+  box-sizing: border-box;  */
 }
 
 .main-box {
   background-color: #00277e;
   width: 76vw;
   height: 220px;
+  /* border: 1px solid red;
+  box-sizing: border-box;  */
 }
 
 .main-img  {
@@ -61,9 +90,13 @@
   left: 50vw;
   width: 50vw;
   z-index: 10;
+  /* border: 1px solid red;
+  box-sizing: border-box;  */
 }
 
 .main-img_img {
   display: block;
   width: 100%;
+  /* border: 1px solid red;
+  box-sizing: border-box;  */
 }
